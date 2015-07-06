@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageButton
+        android:id="@+id/butonclasslig1"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/btn_paccueil_h"
+        android:layout_above="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:src="@drawable/classement" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/btn_paccueil_h"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="152dp"
+        android:src="@drawable/calend" />
+
+    <ImageButton
+        android:id="@+id/calendriern1_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/btn_paccueil_h"
+        android:layout_alignLeft="@+id/butonclasslig1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="62dp"
+        android:src="@drawable/classementbuteur" />
+
+</RelativeLayout>

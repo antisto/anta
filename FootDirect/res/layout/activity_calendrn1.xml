@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fn"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Calendrn1Activity" >
+
+<!-- Inclusion de l’interface comportant l’en-tête de page -->
+<include
+android:id="@+id/include01"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+layout="@layout/logo_h">
+</include>
+
+<ListView
+    android1:id="@android:id/list"
+    android1:layout_width="match_parent"
+    android1:layout_height="wrap_content"
+    android1:layout_alignLeft="@+id/include01"
+    android1:layout_alignRight="@+id/include01"
+    android1:layout_below="@+id/include01" >
+
+</ListView>
+
+</RelativeLayout>

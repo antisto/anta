@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:background="@drawable/fond"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AccueilActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baniere" />
+
+    <ImageButton
+        android:id="@+id/ligue_2_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/btn_paccueil_h"
+        android:layout_alignLeft="@+id/ligue_1_btn"
+        android:layout_below="@+id/ligue_1_btn"
+        android:src="@drawable/lsfp2" />
+
+    <ImageButton
+        android:id="@+id/ligue_1_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/btn_paccueil_h"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/lsfp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ligue_1_btn"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginTop="16dp"
+        android:text="@string/acueil"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:src="@drawable/mini" />
+
+    <ImageButton
+        android:id="@+id/sn2_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/btn_paccueil_h"
+        android:layout_alignLeft="@+id/sn1_btn"
+        android:layout_below="@+id/sn1_btn"
+        android:src="@drawable/championnatnational2" />
+
+    <ImageButton
+        android:id="@+id/sn1_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/btn_paccueil_h"
+        android:layout_alignLeft="@+id/ligue_2_btn"
+        android:layout_below="@+id/ligue_2_btn"
+        android:src="@drawable/championnatnational" />
+
+</RelativeLayout>
